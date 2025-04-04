@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.stars-background {
+  background: linear-gradient(to top, #f7a8e2, #85c6ff);
+  background-image: url('https://i.imgur.com/j3WklSc.png'); /* Fondo de estrellas */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #e754a1;
+}
+
+.mensaje {
+  font-size: 18px;
+  margin: 20px 0;
+}
